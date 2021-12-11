@@ -1,0 +1,153 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-create-block-gutenberg-overview {
+  color: green;
+  background: white; }
+
+.block__container {
+  background: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  border-radius: 8px;
+  -ms-flex-align: left;
+      align-items: left;
+  border: 6px solid rgba(128, 128, 128, 0.5);
+  padding: 20px; }
+
+.firstClass {
+  text-align: center;
+  background: #eff4f7;
+  width: 100%;
+  color: grey;
+  font-weight: bold; }
+
+.employee-name > input[type=text], label > input[type=text] {
+  margin-bottom: 20px;
+  padding: 0 10px;
+  width: 200px;
+  height: 34px;
+  color: #404040;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+          box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12); }
+  .employee-name > input[type=text]:focus, label > input[type=text]:focus {
+    border-color: #7dc9e2;
+    outline-color: #dceefc;
+    outline-offset: 0; }
+
+.img-position {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
+label {
+  font-size: 14px; }
+
+input[type=file] {
+  margin-bottom: 10px; }
+
+.about {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-bottom: 4rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+textarea {
+  margin-bottom: 20px;
+  padding: 0 10px;
+  /*width: 300px;
+    height: 34px;*/
+  color: #404040;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+          box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12); }
+  textarea:focus {
+    border-color: #7dc9e2;
+    outline-color: #dceefc;
+    outline-offset: 0; }
+
+.socials {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 20px; }
+
+.btn {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 3px;
+  background: #dceefc;
+  color: grey;
+  width: 50%;
+  margin: auto; }
+  .btn:hover {
+    background: transparent;
+    -webkit-box-shadow: 0 0 20px 10px rgba(51, 152, 219, 0.2);
+            box-shadow: 0 0 20px 10px rgba(51, 152, 219, 0.2); }
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */ }
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */ }
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer; }
